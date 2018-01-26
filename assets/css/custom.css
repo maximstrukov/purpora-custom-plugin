@@ -1,0 +1,16 @@
+#certificate_verification_form .certificate_message {
+	display: none;
+	padding-top: 10px;
+}
+#certificate_verification_form .certificate_message.invalid {
+	color: #ff0000;
+}
+#certificate_verification_form input[type="text"] {
+	margin-bottom: 0;
+}
+#certificate_verification_form img {
+	border: none;
+	width: 3%;
+	height: 3%;
+	display: none;
+}
